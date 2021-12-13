@@ -1,0 +1,28 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "description": "This package will show you what time it's.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liltanie/time.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Candela Bramucci <candelabramucci05@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Liltanie/time/issues"
+  },
+  "homepage": "https://github.com/Liltanie/time#readme",
+  "bin":{
+    "get-time": "/bin/global.js"
+  },
+  "preferGlobal": true
+}
